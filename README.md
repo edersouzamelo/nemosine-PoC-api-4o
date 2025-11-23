@@ -49,11 +49,11 @@ nemosine-PoC-api-4o/
 │
 └── README.md
 
----
+
 
 ## ▶️ Como Rodar Localmente
 
-### 🔧 **1. Backend (FastAPI)**
+### 1. Backend (FastAPI)
 
 ```bash
 cd backend
@@ -64,9 +64,9 @@ Crie o arquivo .env:
 
 OPENAI_API_KEY=your_key_here
 
----
 
-### 💻 **2. Frontend (React)**
+
+2. 💻 Frontend (React)
 
 cd frontend
 npm install
@@ -76,24 +76,24 @@ Acesse:
 
 http://localhost:3000
 
-📝 Licença
+📄 Licença
 
-Nemosine Nous © — Todos os direitos reservados.
+Nemosine Nous © – Todos os direitos reservados.
 Uso permitido apenas para fins de demonstração, estudo ou colaboração autorizada.
 
 👤 Autor
 
 Edervaldo José de Souza Melo
 Criador do Sistema Cognitivo Modular Nemosine Nous
-🌐 INPI — Registro oficial: BR512025003335-4
+🔗 INPI – Registro oficial: BR512025003335-4
 🔗 GitHub: @edersouzamelo
 
-⭐ Contribuições
+🤝 Contribuições
 
 Sinta-se à vontade para abrir Issues ou Pull Requests.
-Colaborações sérias, melhorias estruturais e análises técnicas são bem-vindas.
+Colaborações sérias são bem-vindas.
 
-🚀 Status do Projeto
+📌 Status do Projeto
 
 ⚡ Prova de Conceito oficialmente funcional
 ⚙️ Back-end FastAPI

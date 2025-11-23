@@ -76,13 +76,33 @@ Acesse:
 
 http://localhost:3000
 
-## 🏷️ Licença
+📝 Licença
 
-Nemosine Nous © – Todos os direitos reservados.
+Nemosine Nous © — Todos os direitos reservados.
+Uso permitido apenas para fins de demonstração, estudo ou colaboração autorizada.
 
-## 📌 Autor
+👤 Autor
 
 Edervaldo José de Souza Melo
 Criador do Sistema Cognitivo Modular Nemosine Nous
+🌐 INPI — Registro oficial: BR512025003335-4
+🔗 GitHub: @edersouzamelo
 
+⭐ Contribuições
 
+Sinta-se à vontade para abrir Issues ou Pull Requests.
+Colaborações sérias, melhorias estruturais e análises técnicas são bem-vindas.
+
+🚀 Status do Projeto
+
+⚡ Prova de Conceito oficialmente funcional
+⚙️ Back-end FastAPI
+🎨 Front-end React
+🔐 API Key protegida via .env
+🧠 Integração direta com o ChatGPT-4o
+
+📩 Contato
+
+Para parcerias, pesquisa, validação técnica ou uso governamental:
+
+📧 edersouzademelo@gmail.com

@@ -64,7 +64,7 @@ Crie o arquivo .env:
 
 OPENAI_API_KEY=your_key_here
 
-
+```
 
 2. 💻 Frontend (React)
 

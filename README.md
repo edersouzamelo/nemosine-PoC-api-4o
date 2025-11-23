@@ -1,97 +1,86 @@
-Nemosine Nous © – PoC Oficial (API ChatGPT-4o)
-Prova de Conceito Full-Stack (FastAPI + React)
+# 🧠 Nemosine Nous ©  
+## PoC Oficial – API ChatGPT-4o (FastAPI + React)
 
-Este repositório contém a Prova de Conceito oficial do Sistema Cognitivo Modular Nemosine Nous, demonstrando comunicação entre:
+Este repositório contém a **Prova de Conceito Oficial** do Sistema Cognitivo Modular **Nemosine Nous**, demonstrando comunicação direta entre:
 
-Backend FastAPI
+- **Backend FastAPI (Python)**
+- **Frontend React**
+- **API externa de linguagem (OpenAI ChatGPT-4o)**
+- **Isolamento seguro da API Key via `.env`**
 
-Frontend React
+A PoC representa o **fluxo cognitivo mínimo funcional** do Nemosine Nous quando acoplado a um motor externo de linguagem.
 
-Integração direta com a API do ChatGPT-4o
+---
 
-Isolamento seguro da API Key via .env
+## 🚀 Tecnologias Utilizadas – Backend
 
-A PoC serve como demonstração técnica do fluxo cognitivo mínimo funcional do Nemosine Nous quando acoplado a uma API externa de linguagem.
+- Python 3.11  
+- FastAPI  
+- Uvicorn  
+- python-dotenv  
+- OpenAI / ChatGPT-4o API  
 
-🚀 Tecnologias Utilizadas
-Backend
+---
 
-Python 3.11
+## 🎨 Tecnologias Utilizadas – Frontend
 
-FastAPI
+- React  
+- Vite  
+- Axios  
+- CSS (Dark Theme customizado)
 
-Uvicorn
+---
 
-python-dotenv
+## 📁 Estrutura Geral do Projeto
 
-OpenAI / ChatGPT-4o API
-
-Frontend
-
-React
-
-Fetch API
-
-CSS customizado (Tema: “Nemosine Noir”)
-
-📂 Estrutura do Projeto
 nemosine-PoC-api-4o/
 │
 ├── backend/
-│   ├── main.py
-│   ├── requirements.txt
-│   ├── .env (não vai para o GitHub)
-│   └── venv/ (ignorado)
+│ ├── main.py
+│ ├── requirements.txt
+│ ├── .env (não incluído no repositório)
+│ └── ...
 │
 ├── frontend/
-│   ├── src/
-│   ├── public/
-│   ├── package.json
-│   └── ...
+│ ├── src/
+│ ├── public/
+│ ├── package.json
+│ └── ...
 │
-└── .gitignore
+└── README.md
 
-🔐 Segurança
+---
 
-A OpenAI API Key está protegida via .env e não é incluída no repositório.
+## ▶️ Como Rodar Localmente
 
-OPENAI_API_KEY=sk-xxxxx...
+### 🔧 **1. Backend (FastAPI)**
 
-
-O backend carrega automaticamente:
-
-from dotenv import load_dotenv
-load_dotenv()
-
-▶️ Como Rodar Localmente
-1. Backend
+```bash
 cd backend
+pip install -r requirements.txt
 uvicorn main:app --reload
 
-2. Frontend
+Crie o arquivo .env:
+
+OPENAI_API_KEY=your_key_here
+
+💻 2. Frontend (React)
+
 cd frontend
 npm install
-npm start
+npm run dev
 
-
-Ambiente local:
+Acesse:
 
 http://localhost:3000
 
-🧪 Funcionamento
+## 🏷️ Licença
 
-O usuário envia uma mensagem via frontend →
-o backend recebe → envia para o ChatGPT-4o → retorna a resposta → exibe via React.
+Nemosine Nous © – Todos os direitos reservados.
 
-📜 Status
+## 📌 Autor
 
-Versão 1.0 — “Primeira versão da PoC”
-✔ Comunicação funcional
-✔ Estilo Nemosínico
-✔ Chave protegida
-✔ Repo público e documentado
+Edervaldo José de Souza Melo
+Criador do Sistema Cognitivo Modular Nemosine Nous
 
-📄 Licença
 
-© 2025 — Nemosine Nous. Todos os direitos reservados.
-Proibida a reprodução comercial sem autorização.

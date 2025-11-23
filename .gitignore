@@ -1,0 +1,20 @@
+# Ignore backend secret keys
+backend/.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Node packages
+frontend/node_modules/
+
+# Logs
+*.log
+
+# Build outputs
+frontend/build/
+backend/.pytest_cache/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,89 @@
+/* ====== ESTILO GLOBAL ====== */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f0f0f; /* fundo mais estiloso Nemosine */
+  font-family: "Segoe UI", sans-serif;
+  color: white;
+}
+
+/* ====== CONTAINER PRINCIPAL ====== */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* ====== TÍTULOS ====== */
+.title-main {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.title-sub {
+  font-size: 1.6rem;
+  margin-top: 0px;
+  margin-bottom: 8px;       /* espaçamento entre 2ª e 3ª linha */
+  color: #cccccc;
+}
+
+.title-third {
+  font-size: 1.2rem;
+  margin-top: 0px;
+  margin-bottom: 20px;      /* espaço abaixo do certificado */
+  color: #bbbbbb;
+}
+
+/* ====== ÁREA DO CHAT ====== */
+.chat-box {
+  height: 60vh;
+  background-color: #111;
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 10px;
+  overflow-y: auto;
+  text-align: left;
+}
+
+/* ====== MENSAGENS ====== */
+.message {
+  padding: 8px;
+  margin-bottom: 10px;
+  background-color: #222;
+  border-radius: 5px;
+}
+
+/* ====== LOADING ====== */
+.loading {
+  color: #888;
+  font-style: italic;
+}
+
+/* ====== ÁREA DE INPUT ====== */
+.input-area {
+  display: flex;
+  margin-top: 15px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #444;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.input-area button {
+  margin-left: 10px;
+  padding: 12px 20px;
+  background-color: #0094ff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}

@@ -66,16 +66,6 @@ OPENAI_API_KEY=your_key_here
 
 ```
 
-2. 💻 Frontend (React)
-
-cd frontend
-npm install
-npm run dev
-
-Acesse:
-
-http://localhost:3000
-
 📄 Licença
 
 Nemosine Nous © – Todos os direitos reservados.
@@ -95,7 +85,7 @@ Colaborações sérias são bem-vindas.
 
 📌 Status do Projeto
 
-⚡ Prova de Conceito oficialmente funcional
+✔️ Prova de Conceito oficialmente funcional
 ⚙️ Back-end FastAPI
 🎨 Front-end React
 🔐 API Key protegida via .env
